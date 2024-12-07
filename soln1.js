@@ -22,19 +22,19 @@ function gradeGenrator() {
         
             // Determining the grade based on the marks
             if (marks > 79) {
-                console.log("A"); // Grade A for marks above 79
+                console.log('A'); // Grade A for marks above 79
             } 
             else if (marks >= 60 && marks <= 79) {
-                console.log("B"); // Grade B for marks between 60 and 79
+                console.log('B'); // Grade B for marks between 60 and 79
             } 
             else if (marks >= 50 && marks <= 59) {
-                console.log("C"); // Grade C for marks between 50 and 59
+                console.log('C'); // Grade C for marks between 50 and 59
             } 
             else if (marks >= 40 && marks <= 49) {
-                console.log("D"); // Grade D for marks between 40 and 49
+                console.log('D'); // Grade D for marks between 40 and 49
             } 
             else {
-                console.log("E"); // Grade E for marks below 40
+                console.log('E'); // Grade E for marks below 40
             }
         }
         else {
